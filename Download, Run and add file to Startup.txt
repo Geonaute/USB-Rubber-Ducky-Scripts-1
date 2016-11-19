@@ -1,9 +1,10 @@
 REM Target OS: Windows 7, Not yet tested on 10 or 8
-REM Change the 'DIRECTFILEURL' to a direct download link to your file. I recommend using Google Drive and going to this website to make them a direct download link
+REM Change the 'DIRECTFILEURL' to a direct download link to your file. I recommend using Google Drive and going to this website to make REM them a direct download link
 REM :https://sites.google.com/site/gdocs2direct/
-REM This works by downloading the file via Internet Explorer then confirming the download. After that it creates a shortcut for the file you uploaded and puts it in the shell:startup for the computer.
+REM This works by downloading the file via Internet Explorer then confirming the download. After that it creates a shortcut for the file  REM you uploaded and puts it in the shell:startup for the computer.
 REM Also remember to replace 'FILENAMEHERE' to the name of your file so it can create the shortcut.
-REN Made By: TheUnkown
+REM You may change the delays depending on how fast the target computer is.
+REM Made By: TheUnkown
 
 GUI r
 DELAY 1000
