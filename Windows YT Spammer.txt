@@ -1,3 +1,9 @@
+REM Target OS- Windows 10/8/7
+REM This script opens 14 ( or more if you want to add some) and then tabs through every youtube video making them start.
+REM Feel free to change the youtube videos or add more to your liking!
+REM Made by TheUnkown
+
+
 GUI r
 DELAY 500
 STRING https://youtu.be/X-vUceJNQc8
